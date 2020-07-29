@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Sudah bayar zakaat belum?</title>
+</head>
+<header>
+    <h1><i class='fas fa-mosque'></i> Berapakah Zakaatmu?</h1>
+</header>
+<body>
+    <div id="container">
+        <h2>Hitung Zakaatmu!</h2>
+        <form>
+            <h4>Pastikan Anda memenuhi syarat di bawah ini!</h4>
+                <div class="syarat-syarat">
+                <input type="checkbox" id="penghasilan" name="penghasilan" value="Uang">
+                <label for="penghasilan"> Terdapat penghasilan 1 tahun</label><br>
+                <input type="checkbox" id="syarat" name="syarat" value="Syarat">
+                <label for="syarat"> Memenuhi syarat-syarat umum berzakaat</label><br>
+              </form>
+            </div>
+            <div class="kalkulasi">
+            <form>
+                <p>Masukkan nominal penghasilan dalam setahun<p>
+                    Rp <input id="nomamt" type="text" placeholder="Nominal Penghasilan (Rupiah)">
+                    <button type="button" id="calculate">Hitung Zakaat</button>
+                </form>
+                </div>
+            </div>
+</body>
+</html>
