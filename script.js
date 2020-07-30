@@ -24,7 +24,7 @@ function calculateZakaat() {
     let zakaat = (nomAmt * 2.5/100)
     zakaat = Math.round(zakaat)
     document.getElementById("totalZakaat").style.display = "block";
-    document.getElementById("total").innerHTML = zakaat;
+    document.getElementById("total").innerHTML = zakaat.toLocaleString();
 }
 
 
