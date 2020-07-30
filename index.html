@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" />
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <title>Sudah bayar zakaat belum?</title>
+    <title>Sudah bayar zakaat maal belum?</title>
 </head>
 <header>
-    <h1><i class='fas fa-mosque'></i> Berapakah Zakaatmu?</h1>
+    <h1><i class='fas fa-mosque'></i> Berapakah Zakaat Maal-mu?</h1>
 </header>
 <body>
     <div id="container">
-        <h2>Hitung Zakaatmu!</h2>
+        <h2>Hitung Zakaat Maal-mu!</h2>
         <form>
             <h4>Pastikan Anda memenuhi syarat di bawah ini!</h4>
                 <div class="syarat-syarat">
-                <input type="checkbox" id="penghasilan" name="penghasilan" value="Uang">
+                <input type="checkbox" id="penghasilan" name="penghasilan">
                 <label for="penghasilan"> Terdapat penghasilan 1 tahun</label><br>
-                <input type="checkbox" id="syarat" name="syarat" value="Syarat">
+                <input type="checkbox" id="syarat" name="syarat">
                 <label for="syarat"> Memenuhi syarat-syarat umum berzakaat</label><br>
               </form>
             </div>
@@ -29,6 +29,11 @@
                     <button type="button" id="calculate">Hitung Zakaat</button>
                 </form>
                 </div>
+                <div id="totalZakaat">
+                    <p>Besar Zakaat Maal yang harus dibayarkan:</p>
+                    Rp <span id="total">0</span>
+                </div>
             </div>
+            <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

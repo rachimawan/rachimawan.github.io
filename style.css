@@ -10,7 +10,7 @@ body {
     height: 500px;
     width: 550px;
     margin: 100px auto;
-    background: #f7f7f7;
+    background: white;
     -webkit-box-shadow: 17px 0px 10px -11px rgba(0,0,0,0.75);
     -moz-box-shadow: 17px 0px 10px -11px rgba(0,0,0,0.75);
     box-shadow: 17px 0px 10px -11px rgba(0,0,0,0.75);
@@ -66,4 +66,14 @@ h4 {
 
 p {
     margin: 20px;
+}
+
+#totalZakaat {
+    font-size: 30px;
+    margin: 0 auto;
+    color: white
+}
+
+#total {
+    background-color: black;
 }
