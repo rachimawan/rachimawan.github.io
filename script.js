@@ -22,6 +22,7 @@ function calculateZakaat() {
     
     //Menghitung berapakah zakatmu?
     let zakaat = (nomAmt * 2.5/100)
+    zakaat = Math.round(zakaat)
     document.getElementById("totalZakaat").style.display = "block";
     document.getElementById("total").innerHTML = zakaat;
 }
